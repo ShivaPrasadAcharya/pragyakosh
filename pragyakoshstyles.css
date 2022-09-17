@@ -1,0 +1,206 @@
+
+body {
+    margin: 0;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+    /* Used in this example to enable scrolling */
+}
+
+ol {
+  counter-reset: item;
+  padding-left: 10px;
+}
+li {
+  display: block
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
+
+
+#A1
+#B2
+#C3
+#D4
+#E5
+#F6
+#G7
+#H8
+#I9 
+#J10
+#K11
+#L12
+#M13
+#N14
+#O15
+#P16
+#Q17
+#R18
+#S19
+#T20
+#U21
+#V22
+#W23
+#X24
+#Y25
+#Z26
+#A1Z26
+{
+padding-top: 5%;
+}
+
+
+/*This style if for footnote */
+
+/* This creates the counter  */
+body {
+    counter-reset: cb_counter_var;
+}
+
+/* This increments the counter value and defines
+the displayed content  */
+sup::after {
+    counter-increment: cb_counter_var;
+    content: counter(cb_counter_var);
+}
+
+/* This initially hides the footnote (i.e. span)  */
+input[type=checkbox]~span {
+    display: none;
+}
+
+/* This styles the footnote text which appears
+when the label is clicked  */
+input[type=checkbox]:checked~span {
+    display: inline;
+    font-size: 90%;
+    font-family: $monospace;
+    color: mix(#000, $text-color, 30%);
+    cursor: default;
+}
+
+/* This permanently hides the checkbox  */
+input[type=checkbox] {
+    display: none;
+}
+
+/* This styles the footnote label to appear
+like a hyperlink  */
+input[type=checkbox]~label {
+    display: inline;
+    cursor: pointer;
+    color: $link-color;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 100%;
+
+}
+
+/* This styles the footnote label when the mouse
+hover over it */
+input[type=checkbox]~label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+/* This styles the footnote label after it is clicked */
+input[type=checkbox]:checked~label {
+    color: red;
+    text-decoration: none;
+}
+
+div.tab1 {
+    padding-left: 1em;
+
+
+}
+
+div.tab2 {
+    padding-left: 2em;
+
+
+}
+
+
+table #columnwidth {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px black solid;
+}
+
+table#columnwidth td {
+    width: 50%;
+    border: 1px black solid;
+
+}
+
+table #columnsize {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px black solid;
+}
+
+table#columnsize td {
+    width: 50%;
+    border: 1px black solid;
+
+}
+
+/* myaddition */
+
+#A1style {
+        color: red;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+#onedotonestyle {
+    color: blue;
+padding: 10px;
+font-weight: bolder;
+}
+
+#onedotonedotonestyle {
+
+    color: black;
+padding: 10px;
+font-weight: 100;
+
+}
+
+
